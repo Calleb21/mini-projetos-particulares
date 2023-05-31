@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+}
+
+header, main {
+    height: 200px;
+    width: auto;
+    color: rgb(7, 15, 22);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button {
+    width: 80px;
+    color: rgb(7, 15, 22);
+    background-color: #e6ff09;
+    border: transparent;
+    border-style: dashed;
+}
